@@ -82,13 +82,17 @@ This server will be running on http://localhost:4000.
 ### Authentication
 This blog website supports two methods of authentication:
 
-#### Google Authentication:
+#### 1. Google Authentication:
 Sign in using your Google account.
 
-#### Local Authentication:
+#### 2. Local Authentication:
 Sign in using a username and password.
 
-
+### Configuration
+#### Google OAuth:
+You will need a Google client ID and client secret. These can be obtained from the Google Developer Console.
+#### Local Strategy:
+Ensure that you have appropriate database setup for storing user credentials securely (hashed passwords, etc.).
 ### Viewing the Blog
 
 Open your browser and navigate to http://localhost:3000 to view the blog website. You can view all posts.
