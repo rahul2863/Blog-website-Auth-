@@ -16,7 +16,7 @@ This is a blog website built using Node.js and Express.js. It utilizes a custom 
 - [License](#license)
 
 ## Features
-
+- Authentication
 - Create new blog posts
 - Update existing blog posts
 - Delete blog posts
@@ -79,6 +79,15 @@ This server will be running on http://localhost:3000.
 This server will be running on http://localhost:4000.
 
 ## Usage
+### Authentication
+This blog website supports two methods of authentication:
+
+#### Google Authentication:
+Sign in using your Google account.
+
+#### Local Authentication:
+Sign in using a username and password.
+
 
 ### Viewing the Blog
 
